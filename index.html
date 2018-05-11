@@ -1,1 +1,663 @@
-hello world
+<!DOCTYPE html>
+<html class="has-navbar-fixed-bottom">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ahmed Nawaz Khan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bulma.min.css">
+	<link rel="stylesheet" href="css/bulma-extensions.min.css">
+	<link rel="stylesheet" href="css/bulma-extensions.sass">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+	<style>
+	.background-image {
+		background-image: url("images/hero-image.jpg");
+	}
+
+	#navMenuContainer {
+		width: 100% !important;
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		align-items: center;
+		justify-items: center;
+	}
+
+
+	@media screen and (max-width: 992px) {
+
+		#main-nav {
+			/* display: none; */
+		}
+
+		#navMenuContainer {
+			grid-template-columns: repeat(2, 1fr);                
+		}
+
+	}
+
+
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118119813-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-118119813-1');
+</script>
+
+</head>
+
+<body>
+
+	<!-- Navbar -->
+	<nav id="main-nav" class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+
+			<a id="navButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+		<div id="navMenu" class="navbar-menu is-active">
+			<div id="navMenuContainer" class="navbar-start">
+
+				<div class="navbar-item">
+
+					<a href="#about">
+						<span>
+							About
+						</span>
+					</a>
+
+				</div>
+				<div class="navbar-item">
+
+					<a href="#education">
+						<span>
+							Education
+						</span>
+					</a>
+
+				</div>
+				<div class="navbar-item">
+
+					<a  href="#experience">
+						<span>
+							Experience
+						</span>
+					</a>
+
+				</div>
+				<div class="navbar-item">
+
+					<a  href="#projects">
+						<span>
+							Projects
+						</span>
+					</a>
+
+				</div>
+				<div class="navbar-item">
+
+					<a href="#skills">
+						<span>
+							Skills
+						</span>
+					</a>
+
+				</div>
+
+				<div class="navbar-item">
+
+					<a href="#achievements">
+						<span>
+							Achievements
+						</span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</nav> 
+
+	<!-- Up Button -->
+    <!-- <div class="tabs">
+            <ul>
+              <li>
+                <a>
+                  <span class="icon"><i class="fas fa-angle-up" aria-hidden="true"></i></span>
+                  <span>Up</span>
+                </a>
+            </li>
+            </ul>
+        </div> -->
+
+
+        <!-- Hero Section -->
+        <section class="hero is-info is-fullheight has-background-link background-image">
+        	<div class="hero-body">
+        		<div class="container">
+        			<h1 class="title is-size-2 has-text-weight-bold has-text-justified">
+        				Ahmed Nawaz Khan
+        			</h1>
+        			<p class="subtitle is-italic has-text-justified">Computer Software Enthusiast.</p>
+        		</div>
+        	</div>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="section has-background-light">
+        	<div class="container">
+        		<div class="columns">
+        			<div class="column is-3 is-offset-1">
+        				<section class="section">
+        					<p class="title is-size-3 has-text-weight-bold has-text-left">About</p>
+        					<p class="subtitle has-text-left">
+        						<span class="icon">
+        							<i class="fas fa-info-circle"></i>
+        						</span>
+        					</p>
+        				</section>
+        			</div>
+        			<div class="column">
+        				<section class="section box">
+        					<p class="has-text-dark has-text-weight-semibold">A self taught technology lover who wants to find easiest ways for complex technological problems. I waste a lot of my time, writing
+        					clean and perfectly designed, flexible code.</p>
+        				</section>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+
+        <!-- Education Here -->
+        <section id="education" class="section has-background-link">
+        	<div class="container">
+        		<div class="columns">
+        			<div class="column is-3 is-offset-1">
+        				<section class="section">
+        					<p class="title is-3 has-text-weight-bold has-text-left has-text-light">Education</p>
+        					<p class="subtitle has-text-left  has-text-light">
+        						<span class="icon">
+        							<i class="fas fa-graduation-cap"></i>
+        						</span>
+        					</p>
+        				</section>
+        			</div>
+        			<div class="column">
+        				<section class="section box has-background-link">
+        					<p class="subtitle is-5 has-text-light has-text-weight-light">2014 - Present</p>
+        					<p class="title is-3 has-text-weight-bold has-text-left has-text-light">Bachelor of Computer Engineering</p>
+        					<p class="subtitle is-5 has-text-weight-normal has-text-light">Ghulam Ishaq Khan Institute of Engineering Sciences and Technology</p>
+        				</section>
+
+        				<section class="section box has-background-link">
+        					<p class="subtitle is-5 has-text-light has-text-weight-light">2012 - 2014</p>
+        					<p class="title is-3 has-text-weight-bold has-text-left has-text-light">FSc. Pre Engineering</p>
+        					<p class="subtitle is-5 has-text-weight-normal has-text-light">Pakistan International Public School and College - Abbottabad</p>
+        				</section>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!-- Experience Section -->
+        <section id="experience" class="section has-background-light">
+        	<div class="container">
+        		<div class="columns">
+        			<div class="column is-3 is-offset-1">
+        				<section class="section">
+        					<p class="title is-size-3 has-text-weight-bold has-text-left">Experience</p>
+        					<p class="subtitle has-text-left">
+        						<span class="icon">
+        							<i class="fas fa-briefcase"></i>
+        						</span>
+        					</p>
+        				</section>
+        			</div>
+        			<div class="column">
+        				<section class="section box">
+        					<p class="subtitle is-5 has-text-dark has-text-weight-light">April 2018 - Present</p>
+        					<p class="title is-3 has-text-weight-bold has-text-left has-text-dark">Webmaster, GIK Institute</p>
+        					<p class="subtitle is-5 has-text-dark has-text-weight-bold">The GIK WebTeam</p>
+
+        					<p class="subtitle is-5 has-text-weight-normal has-text-dark">
+        						<ul class="content has-text-weight-normal">
+        							<ol class="has-text-weight-normal">Leading a team of 29 members for continuous maintenance of the
+        								website and working on revamp of the university's official website. (
+        							https://giki.edu.pk )</ol>
+
+        							<ol class="has-text-weight-normal">Hosted one of the Pakistan's first Design Sprint. Deployed
+        							version control system.</ol>
+        						</ul>
+
+        					</p>
+        				</section>
+
+        				<section class="section box">
+        					<p class="subtitle is-5 has-text-dark has-text-weight-light">April 2017 - Present</p>
+        					<p class="title is-3 has-text-weight-bold has-text-left has-text-dark">Network Manager</p>
+        					<p class="subtitle is-5 has-text-dark has-text-weight-bold">Netronix GIKI</p>
+
+        					<p class="subtitle is-5 has-text-weight-normal has-text-dark">
+        						<ul class="content has-text-weight-normal">
+        							<ol class="has-text-weight-normal">Currently managing computer network at the Institute inside hostels,
+        							faculties, server rooms and newly created buildings</ol>
+        							
+        							
+        						</ul>
+
+        					</p>
+        				</section>
+
+        				<section class="section box">
+        					<p class="subtitle is-5 has-text-dark has-text-weight-light">April 2016 - Present</p>
+        					<p class="title is-3 has-text-weight-bold has-text-left has-text-dark">Web Developer</p>
+        					<p class="subtitle is-5 has-text-dark has-text-weight-bold">Freelance and Local buisness</p>
+
+        					<p class="subtitle is-5 has-text-weight-normal has-text-dark">
+        						<ul class="content has-text-weight-normal">
+        							<ol class="has-text-weight-normal">Created and maintained several websites including some local startups.
+        							Two years of experience with Laravel ( php framework )</ol>
+        							
+        							
+        						</ul>
+
+        					</p>
+        				</section>
+
+        			</div>
+        		</div>
+        	</section>
+
+        	<!-- Projects section -->
+        	<section id="projects" class="section has-background-link">
+        		<div class="container">
+        			<div class="columns">
+        				<div class="column is-3 is-offset-1">
+        					<section class="section">
+        						<p class="title is-3 has-text-weight-bold has-text-left has-text-light">Projects</p>
+        						<p class="subtitle has-text-left  has-text-light">
+        							<span class="icon">
+        								<i class="fab fa-leanpub"></i>
+        							</span>
+        						</p>
+        					</section>
+        				</div>
+        				<div class="column">
+
+        					<section class="section box has-background-link">
+        						<p class="title is-4 has-text-weight-semibold has-text-left has-text-light">Shortest Path Finding Algorithms
+        							
+        						</p>
+        						<p class="subtitle is-6 has-text-weight-normal has-text-light">
+        							<span class="has-text-weight-semibold is-4">Advanced Data Structures Project</span> Self implementation and optimization of five different path finding
+        							algorithms using advanced data structures. This project required
+        							high level of algorithmic thinking and designing of complex custom
+        							data structures
+        						</p>
+        						<p class="subtitle is-6 has-text-weight-normal has-text-light">
+        							<!-- <span class="has-text-weight-semibold is-5">Result </span>I was not able to complete it.</p> -->
+        						</section>
+
+        						<section class="section box has-background-link">
+        							<p class="title is-4 has-text-weight-semibold has-text-left has-text-light">Clothing Store Inventory Software
+        								
+        							</p>
+        							<p class="subtitle is-6 has-text-weight-normal has-text-light">
+        								<span class="has-text-weight-semibold is-4">Intensive Programming Project: </span>Using the advanced concepts of file handling I was able to provide
+        								all basic functionalities to run a clothing business with all of its
+        								transactions ,inventory and user data managed by the software
+        							</p>
+        							<p class="subtitle is-6 has-text-weight-normal has-text-light">
+        								<!-- <span class="has-text-weight-semibold is-5">Result </span>I was not able to complete it.</p> -->
+        							</section>
+
+        							<section class="section box has-background-link">
+        								<p class="title is-4 has-text-weight-semibold has-text-left has-text-light">Complaint Management System For GIK
+        								</p>
+        								<p class="subtitle is-6 has-text-weight-normal has-text-light">
+        									<span class="has-text-weight-semibold is-4">Object Oriented Design And Analysis: </span>This system was designed by using core concepts of Object
+        									Oriented Design and Analysis and Design Patterns. The System was
+        									flexible to enhance and was providing friendly interface to interact
+        									with. Students at Institute now can register their network complain
+        								easily.</p>
+        								<p class="subtitle is-6 has-text-weight-normal has-text-light">
+        									<!-- <span class="has-text-weight-semibold is-5">Result </span>I was not able to complete it.</p> -->
+        								</section>
+
+
+
+
+        							</div>
+        						</section>
+
+        						<!-- Skills Section -->
+        						<section id="skills" class="section has-background-light">
+        							<div class="container">
+        								<div class="columns">
+        									<div class="column is-3 is-offset-1">
+        										<section class="section">
+        											<p class="title is-size-3 has-text-weight-bold has-text-left">Skills</p>
+        											<p class="subtitle has-text-left">
+        												<span class="icon">
+        													<i class="fas fa-paint-brush"></i>
+        												</span>
+        											</p>
+        										</section>
+        									</div>
+        									<div class="column">
+        										<section class="section">
+        											<div class="field is-grouped is-grouped-multiline">
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">C</a>
+        													</div>
+        												</div>
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">C++</a>
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">Python</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">PHP</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">Javascript</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">HTML</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">CSS</a>
+
+        													</div>
+        												</div>
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">MSQL</a>
+
+        													</div>
+        												</div>
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">BASH Scripting</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">Numpy</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons has-text-weight-bold">
+        														<a class="tag is-link">Scikit learn</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">Pandas</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">OOP Design Patterns</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">MVC Framework</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">WEBRTC</a>
+
+        													</div>
+        												</div>
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">Laravel</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">Socket.io</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">Algolia</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">Bootstrap</a>
+
+        													</div>
+        												</div>
+
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">Git</a>
+
+        													</div>
+        												</div>
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">Ubuntu</a>
+
+        													</div>
+        												</div>
+        												<div class="control">
+        													<div class="tags has-addons">
+        														<a class="tag is-link">Centos</a>
+
+        													</div>
+        												</div>
+        											</div>
+        										</section>
+        									</div>
+        								</div>
+        							</div>
+        						</section>
+
+        						<!-- Achievements Section -->
+        						<section id="achievements" class="section has-background-white-ter">
+
+        							<div class="container">
+        								<section class="section">
+        									<h1 class="title is-3 has-text-centered has-text-weight-bold">Achievements</h1>
+
+
+
+        								</section>
+
+        								<div class="timeline is-centered">
+        									<header class="timeline-header">
+        										<span class="tag is-medium has-text-darker has-text-weight-semibold">Start</span>
+        									</header>
+        									<div class="timeline-item"></div>
+        									<header class="timeline-header">
+        										
+
+        									</header>
+        									<div class="timeline-item">
+        										<div class="timeline-marker is-link"></div>
+        										<div class="timeline-content">
+        											
+        											<p class="has-text-weight-semibold has-text-darker">Huwaei ICT Skill Competition National Finalist</p>
+        											<p class="heading has-text-darker has-text-weight-normal has-text-centered">Represented GIK Institute at National Finals for Huwaei ICT skill
+competition</p>
+        										</div>
+        									</div>
+        									
+        									<div class="timeline-item">
+        										<div class="timeline-marker is-link"></div>
+        										<div class="timeline-content">
+        											<p class="has-text-weight-semibold has-text-darker">Cheif Technology Officer at a startup PREPAREHOW</p>
+        											<p class="heading has-text-darker has-text-weight-normal has-text-centered">Developed an online learning management system PREPAREHOW
+letting students through out the country prepare for their entrance tests</p>
+        										</div>
+        									</div>
+        									<div class="timeline-item">
+        										<div class="timeline-marker is-link"></div>
+        										<div class="timeline-content">
+        											
+        											<p class="has-text-weight-semibold has-text-darker">87 points at Stackoverflow Platform</p>
+        										</div>
+        									</div>
+
+        									<div class="timeline-item">
+        										<div class="timeline-marker is-link"></div>
+        										<div class="timeline-content">
+        											<p class="has-text-weight-semibold has-text-darker">Webmaster - The GIK WebTeam</p>
+        										</div>
+        									</div>
+        									<header class="timeline-header">
+        										<span class="tag is-link">End</span>
+        									</header>
+        								</div>
+        								<br>
+
+        							</section>
+
+        							<!-- footer section to contact -->
+        							<footer class="footer">
+        								<div class="container">
+        									<div class="content has-text-centered">
+        										<p>
+        											<strong>CV</strong> by
+        											<a href="https://ahmednawazkhan.github.io/cv/ahmed_resume.pdf">Ahmed Nawaz Khan</a>
+        										</p>
+        									</div>
+        								</div>
+        							</footer>
+
+
+        							<!-- This is for smooth scrolling. -->
+        							<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        							crossorigin="anonymous"></script>
+        							<script>
+        // Select all links with hashes
+        $('a[href*="#"]')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function (event) {
+                // On-page links
+                if (
+                	location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                	location.hostname == this.hostname
+                	) {
+                    // Figure out element to scroll to
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    // Does a scroll target exist?
+                    if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                        	scrollTop: target.offset().top
+                        }, 1000, function () {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                            	return false;
+                            } else {
+                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                $target.focus(); // Set focus again
+                            };
+                        });
+                    }
+                }
+            });
+
+//        document.addEventListener('DOMContentLoaded', function () {
+
+// // Get all "navbar-burger" elements
+// var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// // Check if there are any navbar burgers
+// if ($navbarBurgers.length > 0) {
+
+//   // Add a click event on each of them
+//   $navbarBurgers.forEach(function ($el) {
+//     $el.addEventListener('click', function () {
+
+//       // Get the target from the "data-target" attribute
+//       var target = $el.dataset.target;
+//       var $target = document.getElementById(target);
+
+//       // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+//       $el.classList.toggle('is-active');
+//       $target.classList.toggle('is-active');
+
+//     });
+//   });
+// }
+
+// });
+
+        //   $(window).scroll(function () {
+        // if ($(window).scrollTop() >= 50) {
+        // $('.navbar').css('background-color','block');
+        // } else {
+        // $('.navbar').css('display','none');
+        // }
+        // });
+
+        let navMenu =  document.querySelector('#navMenu');
+        function toggle() {
+        	navMenu.classList.toggle('is-active');
+        }
+
+        document.querySelector("#navButton").addEventListener('click', toggle);
+    </script>
+</body>
+
+</html>
