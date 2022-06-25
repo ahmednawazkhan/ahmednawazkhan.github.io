@@ -35,4 +35,8 @@ params:
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
   newsletter:
-    enable: true
+    enable: false
+  
+  footer: 
+    credentials:
+      enable: false

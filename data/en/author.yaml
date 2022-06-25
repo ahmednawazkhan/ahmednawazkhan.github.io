@@ -7,6 +7,8 @@ image: "images/author/ahmed-nawaz-khan.png"
 contactInfo:
   email: "ahmednawazkhan5@gmail.com"
   phone: "+923325350811"
+  linkedin: "ahmednawazkhan"
+  github: "ahmednawazkhan"
 
 summary:
   - I am a Software Engineer
