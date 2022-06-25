@@ -1,0 +1,31 @@
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: WebMaster GIKI WebTeam
+  image: /images/sections/achievements/webteam.jpg
+  summary: Leading 29 member team in university while being student.
+
+- title: Second Best Final Year Project
+  image: /images/sections/achievements/webteam.jpg
+  summary: Secured second position in Computer Science faculty for best final year project year 2019.
+
+- title: Pakistan Air Force Sponsored Final Year Project
+  image: /images/sections/achievements/webteam.jpg
+  summary: Our FYP was fully sponsored by Pakistan Air Force.
+
+- title: Full Scholarship At GIK Institure
+  image: /images/sections/achievements/webteam.jpg
+  summary: Got full study scholarship after competitve tests and interviews.
+
+- title: Huwaei ICT Skill Competition National Finalist
+  image: /images/sections/achievements/webteam.jpg
+  summary: Ranked in top 25 students through out Pakistan in Huwaei's First ever ICT Skill Competition.
