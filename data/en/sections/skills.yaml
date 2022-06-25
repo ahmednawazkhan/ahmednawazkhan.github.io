@@ -10,40 +10,42 @@ skills:
 - name: NodeJS
   logo: "images/sections/skills/node.png"
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  url: "https://nodejs.org/"
 
 - name: NestJS
   logo: "/images/sections/skills/nest.svg"
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+  url: "https://nestjs.com/"
 
 - name: Laravel
   logo: "/images/sections/skills/laravel.png"
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  url: "https://laravel.com/"
 
 - name: Docker
   logo: "/images/sections/skills/docker.png"
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  url: "https://www.docker.com/"
 
 - name: MongoDB
   logo: "/images/sections/skills/mongo.png"
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+  url: "https://www.mongodb.com/"
 
 - name: Postgres
   logo: "/images/sections/skills/postgres.png"
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  url: "https://www.postgresql.org/"
 
 - name: Typescript
   logo: "/images/sections/skills/typescript.png"
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  url: "https://www.typescriptlang.org/"
 
 - name: AWS
   logo: "/images/sections/skills/aws.png"
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+  url: "https://aws.amazon.com/"
 
 - name: System Design and Architecture
   logo: "/images/sections/skills/backend.jpeg"

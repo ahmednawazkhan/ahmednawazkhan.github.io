@@ -1,0 +1,55 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: "10Pearls"
+    url: "https://10pearls.com"
+    location: Islamabad ( Pakistan )
+    # company overview
+    overview: 10Pearls build and design transformational digital products and experiences that drive real business value and customer impact—so you can create innovative products faster and at scale..
+  positions:
+  - designation: Staff Software Engineer
+    start: Nov 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - I am involved in development of core applications for tenpearl's top clients like POWERSCHOOL SOPHOS and HBL.
+    - Mentor young engineers to level train them for latest technologies and best engineering practises.
+    - Active participation to conduct different trainings and in-house development.
+
+- company:
+    name: Afiniti
+    url: "https://www.afiniti.com/"
+    location: Islamabad ( Pakistan )
+    overview: Afiniti transforms the way humans interact by applying artificial intelligence to discover, predict and affect patterns of interpersonal behavior.
+  positions:
+  - designation: Software Engineer
+    start: June 2019
+    end: Nov 2020
+    responsibilities:
+    - As software engineer I was involved in development of software products that helped Afiniti monitor all its micro services to ensure smooth operations.
+    - Development of a configuration service to store configurations of all afiniti microservices.
+
+- company:
+    name: GIK Institute
+    url: "https://giki.edu.pk/"
+    location: Swabi ( Pakistan )
+    overview: The Ghulam Ishaq Khan Institute of Engineering Sciences and Technology (GIK) is one of the most prestigious engineering institutes of Pakistan. GIK is known the world over for setting a standard of excellence in the field of engineering.
+  positions:
+  - designation: Webmaster GIKI WebTeam
+    start: April 2018
+    end: April 2019
+    responsibilities:
+    - Lead a team of 29 members for continuous development and maintenance of my university's official [website](https://giki.edu.pk ) and its web servers.
+    - Server Upgrades and Security Patches.
+    - Network Administration
