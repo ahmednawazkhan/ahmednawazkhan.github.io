@@ -1,0 +1,16 @@
+# some information about you
+name: "Ahmed Nawaz Khan"
+nickname: "Ahmed"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/ahmed-nawaz-khan.png"
+contactInfo:
+  email: "ahmednawazkhan5@gmail.com"
+  phone: "+923325350811"
+
+summary:
+  - I am a Software Engineer
+  - I am a Backend Developer
+  - I love AWS
+  - I play Rainbow Six Siege
+  - I like to play chess

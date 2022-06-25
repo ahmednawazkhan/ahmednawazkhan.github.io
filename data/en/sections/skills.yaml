@@ -1,0 +1,50 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+skills:
+- name: NodeJS
+  logo: "images/sections/skills/node.png"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://kubernetes.io/"
+
+- name: NestJS
+  logo: "/images/sections/skills/nest.svg"
+  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  url: "https://golang.org/"
+
+- name: Laravel
+  logo: "/images/sections/skills/laravel.png"
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+
+- name: Docker
+  logo: "/images/sections/skills/docker.png"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://kubernetes.io/"
+
+- name: MongoDB
+  logo: "/images/sections/skills/mongo.png"
+  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  url: "https://golang.org/"
+
+- name: Postgres
+  logo: "/images/sections/skills/postgres.png"
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+
+- name: Typescript
+  logo: "/images/sections/skills/typescript.png"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://kubernetes.io/"
+
+- name: AWS
+  logo: "/images/sections/skills/aws.png"
+  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  url: "https://golang.org/"
+
+- name: System Design and Architecture
+  logo: "/images/sections/skills/backend.jpeg"
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
