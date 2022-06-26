@@ -7,46 +7,55 @@ section:
   showOnNavbar: true
 
 skills:
+
+- name: Typescript
+  logo: "/images/sections/skills/typescript.png"
+  summary: >
+      After typescript I bid farewell to `Javascript` due to type safety. I have 3 years of experience working with it. 
+  url: "https://www.typescriptlang.org/"
 - name: NodeJS
   logo: "images/sections/skills/node.png"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: >
+      I have 4 years of experience with NodeJS. I have created many `RESTFul APIs` and `microservices` using NodeJS.
   url: "https://nodejs.org/"
 
 - name: NestJS
   logo: "/images/sections/skills/nest.svg"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: >
+      I prefer NestJS for most of my node applications. I have created alot of `microservices` along with performing unit and end to end tests using `JEST`.
   url: "https://nestjs.com/"
 
 - name: Laravel
   logo: "/images/sections/skills/laravel.png"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: >
+      I am follwing Laravel when its version 4 was released. I still believe its the best framework released ever ( I do know some about `spring boot` and `django` and even... ). Huge fan of `Jeffery Way` and `laracasts.com`.
   url: "https://laravel.com/"
 
 - name: Docker
   logo: "/images/sections/skills/docker.png"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: >
+      Mostly I use Docker for local development. I am comfortable in writing new `DockerFiles` or modifying them to cater my needs.
   url: "https://www.docker.com/"
 
 - name: MongoDB
   logo: "/images/sections/skills/mongo.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: >
+      Worked with ORMs like `Mongoose`. Wrote complex `aggregation pipelines` to extract valueable information. Worked with geospatial queries as well like `geowithin`.
   url: "https://www.mongodb.com/"
 
 - name: Postgres
   logo: "/images/sections/skills/postgres.png"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: >
+    I Built a lot large scale applications using Postgres. used ORMs like `TypeORM` and `Prisma`.
   url: "https://www.postgresql.org/"
-
-- name: Typescript
-  logo: "/images/sections/skills/typescript.png"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://www.typescriptlang.org/"
 
 - name: AWS
   logo: "/images/sections/skills/aws.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: >
+      Worked with `CodeDeploy`, `CodePipeline`, `Serverless`, `Lambdas`, `ECS` and `CDK`
   url: "https://aws.amazon.com/"
 
-- name: System Design and Architecture
+- name: Design and Architecture
   logo: "/images/sections/skills/backend.jpeg"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: |
+      Actively involved in system design and architecture of large scale applications. Extensively used `RabbitMQ`, `Redis`, `OAuth` and `ElasticSearch` 

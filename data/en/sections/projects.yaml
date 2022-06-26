@@ -120,7 +120,7 @@ projects:
   role: Developer
   timeline: "March 2022 - Present"
   repo: ""
-  summary: One of the best and most interesting projects of my life. We had to extract vast amount of data from different sources and then interpret that data to rank top 500 cities based on 45 different indicators like No of Museums, Libraries, Cinemas, Number of International Students etc.
+  summary: One of the best and most interesting project of my life. We had to extract vast amount of data from different sources regarding different cities along with city geospatial data and then interpret that data to rank top 500 cities based on 45 different indicators like No of Museums, Libraries, Cinemas, Number of International Students etc.
   tags: ["typescript", "nodejs", "nestjs","mongodb", "freelance"]
 
 - name: Smart Energy Monitoring System 
@@ -128,7 +128,7 @@ projects:
   role: Developer
   timeline: "June 2021 - November 2021"
   repo: ""
-  summary: a 10pearls in house development project in which we tried to solve the problem of tracking electricity montly bill. An IOT device was made attached to the Electric Meter which sent power usage information to our api using MQTT protocol. The developed API interprets that data and compute valueable information like expected bills and other cost saving predictions.
+  summary: A 10pearls in house development project in which we tried to solve the problem of tracking electricity montly bill. An IOT device was made attached to the Electric Meter which sent power usage information to our api using MQTT protocol. The developed API interprets that data and compute valueable information like expected bills and other cost saving predictions.
   tags: ["nodejs", "koa", "reactjs", "10pearls"]
 
 - name: FNZ Insurance Work Requests Tracker
