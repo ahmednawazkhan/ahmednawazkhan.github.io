@@ -2,7 +2,7 @@ baseURL: https://ahmednawazkhan.github.io
 
 languageCode: en-us
 title: "Ahmed's Portfolio"
-theme: "toha"
+theme: 'toha'
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
@@ -36,7 +36,16 @@ params:
   # Currently, you can just hide it from the footer.
   newsletter:
     enable: false
-  
-  footer: 
+
+  footer:
     credentials:
       enable: false
+
+  topNavbar:
+    maxVisibleSections: 7
+    
+  darkMode:
+    enable: true
+    provider: darkreader
+    default: system
+
