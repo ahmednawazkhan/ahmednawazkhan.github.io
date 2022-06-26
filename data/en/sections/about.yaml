@@ -33,9 +33,12 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Leadership
-  percentage: 85
+- name: Communication
+  percentage: 90
   color: blue
+- name: Research and Development
+  percentage: 90
+  color: green
 - name: Team Work
   percentage: 90
   color: yellow
