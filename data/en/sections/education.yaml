@@ -1,0 +1,36 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: B.Sc. in Computer Science & Engineering
+    icon: fa-graduation-cap
+    timeframe: 2015-2019
+    institution:
+      name: GIK Institute of Engineering Sciences and Technology
+      url: 'https://giki.edu.pk/'
+    grade: #(optional)
+      scale: CGPA
+      achieved: 3.51
+      outOf: 4
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 5
+      courses:
+        - name: Data Structures and Algorithm
+        - name: Object Oriented Design and Architecture
+        - name: Data Mining and Analysis
+        - name: Artificial Intelligence
+        - name: Project Management
+
+    publications: #(optional)
+      - title: Autonomous tunnel mapping using quad copter, proximity sensors and artificial intelligence
+        url: '#'
