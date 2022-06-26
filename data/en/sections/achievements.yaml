@@ -15,11 +15,11 @@ achievements:
   summary: Leading 29 member team in university while being student.
 
 - title: Second Best Final Year Project
-  image: /images/sections/achievements/fyp.jpeg
+  image: /images/sections/achievements/fyp.png
   summary: Secured second position in Computer Science faculty for best final year project year 2019.
 
 - title: Pakistan Air Force Sponsored Final Year Project
-  image: /images/sections/achievements/webteam.jpg
+  image: /images/sections/achievements/quad.png
   summary: Our FYP was fully sponsored by Pakistan Air Force.
 
 - title: Full Scholarship At GIK Institure
@@ -27,5 +27,5 @@ achievements:
   summary: Got full study scholarship after competitve tests and interviews.
 
 - title: Huwaei ICT Skill Competition National Finalist
-  image: /images/sections/achievements/huawei.jpeg
+  image: /images/sections/achievements/huawei.png
   summary: Ranked in top 25 students through out Pakistan in Huwaei's First ever ICT Skill Competition.
