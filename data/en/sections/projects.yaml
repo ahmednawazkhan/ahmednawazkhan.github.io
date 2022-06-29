@@ -42,6 +42,10 @@ buttons:
   filter: "ai"
 - name: PHP
   filter: "php"
+- name: RabbitMQ
+  filter: "rabbitmq"
+- name: Redis
+  filter: "redis"
 - name: ReactJS
   filter: "reactjs"
 - name: AngularJS
@@ -81,7 +85,7 @@ projects:
   timeline: "March 2020 - November 2020"
   repo: ""
   summary: Created 3 variants of a monitoring system in Node, Golang and Java. SNMP protocol was used in Java variant to create a SNMP agent. The product was helpful to monitor a huge microservices architecture. Older variants were client based where we were interacting directly with servers using different native client tools to fetch required information..
-  tags: ["typescript", "nodejs","go","mongodb","docker", "afiniti"]
+  tags: ["typescript", "nodejs","go","mongodb","docker","redis", "afiniti"]
 
 - name: Habib Bank Integration with State Bank (SBP) RAAST
   logo: /images/sections/skills/node.png
@@ -89,7 +93,7 @@ projects:
   timeline: "January 2022 - May 2022"
   repo: ""
   summary: This project belongs to fintech industry which requires integration of habib bank with state bank's RAAST system. I am involved in active development and system design. My major contribution is a store a forward (SAF) microservice that acts as retry mechanism for failed transactions and failed jobs.
-  tags: ["typescript", "nodejs","nestjs", "mongodb","docker", "10pearls"]
+  tags: ["typescript", "nodejs","nestjs", "mongodb","docker","rabbitmq", "10pearls"]
 
 - name: Support Tool For Data Integrity
   logo: /images/sections/skills/aws.png
@@ -113,7 +117,7 @@ projects:
   timeline: "May 2022 - Present"
   repo: ""
   summary: This project was huge and was built already on microservices architecture. I had to understand all the parts and had to take active part in development of new features, reviewing pull requests and deployments.
-  tags: ["typescript", "nodejs","angularjs", "aws", "docker","postgres", "koa", "10pearls"]
+  tags: ["typescript", "nodejs","angularjs", "aws", "docker","postgres", "koa", "redis", "10pearls"]
 
 - name: Bop500 Cities
   logo: /images/sections/skills/node.png
