@@ -52,7 +52,7 @@ skills:
 - name: AWS
   logo: "/images/sections/skills/aws.png"
   summary: >
-      Worked with `CodeDeploy`, `CodePipeline`, `Serverless`, `Lambdas`, `ECS` and `CDK`
+      Worked with `CodePipeline`, `Serverless`, `Lambdas`, `ECS` and `CDK`
   url: "https://aws.amazon.com/"
 
 - name: Design and Architecture

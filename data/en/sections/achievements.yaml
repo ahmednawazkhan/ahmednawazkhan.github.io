@@ -29,3 +29,15 @@ achievements:
 - title: Huwaei ICT Skill Competition National Finalist
   image: /images/sections/achievements/huawei.png
   summary: Ranked in top 25 students through out Pakistan in Huwaei's First ever ICT Skill Competition.
+
+- title: 10Pearls Lap Smart Energy Monitoring Initiative
+  image: /images/sections/achievements/sem.png
+  summary: Worked on inhouse project to develop solution for electricity consumption.
+
+- title: React Fundamentals Training
+  image: /images/sections/achievements/react.png
+  summary: Conducted a training on react fundamentals.
+
+- title: GIT Bootcamp Training
+  image: /images/sections/achievements/git.png
+  summary: Conducted a training on GIT for new joiners.
