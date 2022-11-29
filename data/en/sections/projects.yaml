@@ -89,12 +89,12 @@ projects:
   summary: Created 3 variants of a monitoring system in Node, Golang and Java. SNMP protocol was used in Java variant to create a SNMP agent. The product was helpful to monitor a huge microservices architecture. Older variants were client based where we were interacting directly with servers using different native client tools to fetch required information..
   tags: ["typescript", "nodejs","go","mongodb","docker","redis", "afiniti"]
 
-- name: Habib Bank Integration with State Bank (SBP) RAAST
+- name: Bank Integration With (SBP) RAAST
   logo: /images/sections/skills/node.png
   role: Developer
   timeline: "January 2022 - May 2022"
   repo: ""
-  summary: This project belongs to fintech industry which requires integration of habib bank with state bank's RAAST system. I am involved in active development and system design. My major contribution is a store a forward (SAF) microservice that acts as retry mechanism for failed transactions and failed jobs.
+  summary: This project belongs to fintech industry which requires integration of a local bank with state bank's RAAST system. I was involved in active development and system design. My major contribution is a store a forward (SAF) microservice that acts as retry mechanism for failed transactions and failed jobs.
   tags: ["typescript", "nodejs","nestjs", "mongodb","docker","rabbitmq", "10pearls"]
 
 - name: Support Tool For Data Integrity
@@ -105,12 +105,12 @@ projects:
   summary: Our client served millions of customers in USA. They had to provide their support team with a mechanism to debug the data issues and quickly rectify the issue with latest information. We made this tool using Node, React and AWS to help support team figure out data issues quickly and synchronize information across various third party data providers and our service without losing any information and maintaining data integrity.
   tags: ["typescript", "nodejs","reactjs", "aws", "mysql", "10pearls"]
 
-- name: Powerschool Naviance application for student carrer growth 
+- name: Student Career Growth Application 
   logo: /images/sections/skills/php.png
   role: Developer
   timeline: "January 2021 - May 2021"
   repo: ""
-  summary: This application aims at college selection, career growth for students and parents involvement in the education system in US. About 35% of schools in the US use this application for their students to level up their career and to grow as a professional. I worked with Powerschool as backend and frontend developer for this application.
+  summary: This application aims at college selection, career growth for students and parents involvement in the education system in US. About 35% of schools in the US use this application for their students to level up their career and to grow as a professional. I worked with client as backend and frontend developer for this application.
   tags: ["php", "mysql","reactjs", "aws", "mysql", "10pearls"]
 
 - name: Recruitment Application
@@ -118,8 +118,16 @@ projects:
   role: Developer
   timeline: "May 2022 - Present"
   repo: ""
-  summary: This project was huge and was built already on microservices architecture. I had to understand all the parts and had to take active part in development of new features, reviewing pull requests and deployments. This project includes workflows from candidate sourcin
+  summary: This project was huge and was built on microservices architecture. I had to understand all the parts and had to take active part in development of new features, reviewing pull requests and deployments. I was also involved in its aws deployment infrastructure 
   tags: ["typescript", "nodejs","angularjs", "aws", "docker","postgres", "koa", "redis", "elasticsearch", "10pearls"]
+
+- name: Crypto Currency Investor Applications
+  logo: /images/sections/skills/node.png
+  role: Developer
+  timeline: "May 2022 - Present"
+  repo: ""
+  summary: This project leverages Blockchain technology to reward people for their contribution to recruitment. I created all the aws deployment infrastructure for the application, CI/CD pipelines and looked after its deployments
+  tags: ["nodejs","react", "aws", "docker","mongodb", "10pearls", "blockchain"]
 
 - name: Bop500 Cities
   logo: /images/sections/skills/node.png
