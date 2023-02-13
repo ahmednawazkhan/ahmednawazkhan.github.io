@@ -15,7 +15,7 @@ experiences:
     url: "https://10pearls.com"
     location: Islamabad ( Pakistan )
     # company overview
-    overview: 10Pearls build and design transformational digital products and experiences that drive real business value and customer impact—so you can create innovative products faster and at scale..
+    overview: 10Pearls build and design transformational digital products and experiences that drive real business value and customer impact—so you can create innovative products faster and at scale.
   positions:
   - designation: Staff Software Engineer
     start: Nov 2020
@@ -23,8 +23,8 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - I am involved in development of core applications for tenpearl's top clients like POWERSCHOOL SOPHOS and HBL.
-    - Mentor young engineers to train them for latest technologies and best engineering practises.
+    - I am involved in development of core applications for tenpearl's top clients
+    - Mentor young engineers to train them for latest technologies and best engineering practices.
     - Active participation in conducting different trainings and in-house development.
 
 - company:
