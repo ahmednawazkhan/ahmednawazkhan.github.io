@@ -41,3 +41,7 @@ achievements:
 - title: GIT Bootcamp Training
   image: /images/sections/achievements/git.png
   summary: Conducted a training on GIT for new joiners.
+
+- title: Code Quality Training
+  image: /images/sections/achievements/code-quality.png
+  summary: Conducted a training on code quality and best practises for 10Pearls university
