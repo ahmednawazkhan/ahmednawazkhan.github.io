@@ -29,6 +29,11 @@ socialLinks:
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/ahmednawazkhan"
+
+- name: StackOverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/6571807/ahmed-nawaz-khan"
+
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
