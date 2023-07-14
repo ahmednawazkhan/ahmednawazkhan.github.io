@@ -25,11 +25,11 @@ skills:
       I prefer NestJS for most of my node applications. I have created alot of `microservices` along with performing unit and end to end tests using `JEST`.
   url: "https://nestjs.com/"
 
-- name: Laravel
-  logo: "/images/sections/skills/laravel.png"
+- name: Golang
+  logo: "/images/sections/skills/go.png"
   summary: >
-      I am follwing Laravel when its version 4 was released. I still believe its the best framework released ever ( I do know some about `spring boot` and `django` and even... ). Huge fan of `Jeffery Way` and `laracasts.com`.
-  url: "https://laravel.com/"
+      I have built two enterprise applications in Golang. I think it is the best programming language to get a job done quickly
+  url: "https://go.dev/"
 
 - name: Docker
   logo: "/images/sections/skills/docker.png"
@@ -46,13 +46,13 @@ skills:
 - name: Postgres
   logo: "/images/sections/skills/postgres.png"
   summary: >
-    I Built a lot large scale applications using Postgres. used ORMs like `TypeORM` and `Prisma`.
+    Built a lot of large scale applications using Postgres. used ORMs like `TypeORM` and `Prisma`.
   url: "https://www.postgresql.org/"
 
 - name: AWS
   logo: "/images/sections/skills/aws.png"
   summary: >
-      Worked with `CodePipeline`, `Serverless`, `Lambdas`, `ECS` and `CDK`
+      Worked with `CodePipeline`, `Serverless`, `Lambdas`, `ECS`, `Cloudwatch`, `ELBs`, `S3`, `Cloudfront`, `SQS`, `SNS`, `API Gateway`, `IAM`  and `CDK`
   url: "https://aws.amazon.com/"
 
 - name: Design and Architecture
