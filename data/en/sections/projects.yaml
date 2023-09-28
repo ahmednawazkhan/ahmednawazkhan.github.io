@@ -60,6 +60,8 @@ buttons:
   filter: "freelance"
 - name: GIKI
   filter: "gik"
+- name: Google Cloud
+  filter: "gcloud"
 
 # your projects
 projects:
@@ -71,6 +73,14 @@ projects:
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: For this project we had to detect malware from windows executable files. The file normally called PE file, is first parsed and converted to a feature vector ( floating point array ). That vector along with some entropy and standard deviation calculations, is passed through a custom built feed forward part of neural network which outputs a score between 1-100 indicating if the file is infected.
   tags: ["c++","ai", "10pearls"]
+
+- name: Audio & Video Remote Interpreting Service
+  logo: /images/sections/skills/go.png
+  role: Team Lead
+  timeline: "April 2023 - Present"
+  repo: ""
+  summary: My current project is a golang application that has a web and mobile interface. It allows customer to hire an interpreter for him against desired language on an audio or video call. A one to one session call is generated natively or on integrated zoom. I am responsible for leading and managing backend team, reviewing PRs, planning and archtitecture of application
+  tags: ["go","gcloud","docker","redis", "postgres", "10pearls"]
 
 - name: Configuration Service
   logo: /images/sections/skills/node.png
